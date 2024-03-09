@@ -3,6 +3,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  &::-webkit-scrollbar {
+    width: 8px; /* Adjust the width as needed */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #808080; /* Change the color as needed */
+    border-radius: 4px; /* Adjust the border radius as needed */
+  }
+
+  /* Optional: Microsoft Edge */
+  &::-ms-scrollbar {
+    width: 8px; /* Adjust the width as needed */
+  }
+
+  &::-ms-scrollbar-thumb {
+    background-color: #808080; /* Change the color as needed */
+    border-radius: 4px; /* Adjust the border radius as needed */
+  }
+
+  &::-ms-scrollbar-track {
+    background-color: #f1f1f1; /* Change the color as needed */
+  }
 }
 a {
   text-decoration: none;

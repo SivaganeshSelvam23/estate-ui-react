@@ -6,10 +6,10 @@ const Navbar = () => {
     <nav>
       <div className="left">
         <a href="/" className="logo">
-          <img src="/public/logo.png" alt="" />
+          <img src="../../../public/logo.png" alt="" />
           <span>GTA Estate</span>
         </a>
-        <a href="">Home</a>
+        <a href="/">Home</a>
         <a href="">About</a>
         <a href="">Contact</a>
         <a href="">Agents</a>
